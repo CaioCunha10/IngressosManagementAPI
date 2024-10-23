@@ -16,14 +16,15 @@ IngressosAPI é uma API RESTful desenvolvida em ASP.NET Core que permite a compr
 
 ## Imagens de Testes
 
-### 1. Consumo do CosmosDB
-![Consumo do CosmosDB](Images/CosmosDbConsumindo.png)
 
-### 2. Requisição de Token
+### 1. Requisição de Token
 ![Requisição de Token](Images/RequestTokenJwt.png)
 
-### 3. Requisição POST
+### 2. Requisição POST
 ![Requisição POST](Images/PostRequest.png)
+
+### 3. Consumo do CosmosDB
+![Consumo do CosmosDB](Images/CosmosDbConsumindo.png)
 
 ### 4. Testes Unitários
 ![Testes Unitários](Images/unitTests.png)
