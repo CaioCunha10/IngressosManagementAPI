@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qIWOPipfpyosVf9K6+lwErNb+PAOZML81/1j9Xei24k=",
+  "Source": "IngressosAPI",
+  "BasePath": "_content/IngressosAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

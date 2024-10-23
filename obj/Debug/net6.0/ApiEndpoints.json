@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "IngressosAPI.Controllers.IngressoController",
+    "Method": "AddIngresso",
+    "RelativePath": "api/Ingresso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ingressoDTO",
+        "Type": "IngressosAPI.DTOs.IngressoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IngressosAPI.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/Entrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "IngressosAPI.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IngressosAPI.Controllers.MessageController",
+    "Method": "ConsumeMessages",
+    "RelativePath": "api/Message/consume",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

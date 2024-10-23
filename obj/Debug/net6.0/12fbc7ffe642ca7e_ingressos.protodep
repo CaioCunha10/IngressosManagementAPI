@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/Ingressos.cs \
+obj\Debug\net6.0\Protos/IngressosGrpc.cs: Protos/ingressos.proto

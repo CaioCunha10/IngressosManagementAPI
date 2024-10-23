@@ -1,0 +1,28 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "IngressosAPI.Protos";
+
+service IngressoService {
+  rpc AdicionarIngresso(IngressoRequest) returns (IngressoResponse);
+  rpc ProcessarIngresso(IngressoProcessRequest) returns (IngressoProcessResponse);
+}
+
+message IngressoRequest {
+  string eventoId = 1;
+  string nomeCompletoComprador = 2;
+  int32 quantidadeIngressos = 3;
+  string preco = 4;
+  string dataCompra = 5;
+}
+
+message IngressoResponse {
+  string message = 1;
+}
+
+message IngressoProcessRequest {
+  string id = 1;
+}
+
+message IngressoProcessResponse {
+  string message = 1;
+}
